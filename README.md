@@ -1,4 +1,4 @@
-# Hi, I'm Bello 👋
+# Hi, I'm Mohammed 👋
 
 **Founder of [CalGrid AI](https://calgridai.com) · CS (Data Analytics) @ Trent University · Building toward a career in cybersecurity**
 
