@@ -1,47 +1,56 @@
-# Hi, I'm Mohammed 👋
+# Hi, I'm Mohammed Bello Ibrahim 👋
 
-**Founder of [CalGrid AI](https://calgridai.com) · CS (Data Analytics) @ Trent University · Building toward a career in cybersecurity**
+**AI Engineering · Data · Security & Governance**
 
-I build and secure data products. I shipped a production AI analytics SaaS solo, and I'm now focused on security operations: threat detection, risk assessment, and cloud security.
+Final-year Honours Computer Science student (Data Analytics) at Trent University, graduating April 2027 and open to 2027 new grad roles in Toronto. I build AI that is useful, measured, and secure.
 
-📍 Ontario, Canada · 🎓 Honours BSc Computer Science, Data Analytics specialization (May 2027) · Dean's Honour Roll
+📍 Ontario, Canada · 🎓 Dean's Honour Roll 2024, 2025 and 2026
 
 ---
 
 ## 🚀 Flagship: CalGrid AI
 
-**AI-powered data analytics for small businesses.** Upload a spreadsheet, get plain-English insights, forecasts, and shareable reports.
+**[calgridai.com](https://calgridai.com)**: an AI data analyst for small businesses. Upload a spreadsheet and get plain-English insights, forecasts, and shareable reports. I'm the founder and lead engineer.
 
-- Built end to end as sole founder and developer, live in production
-- Next.js + React app with Clerk auth (incl. Google OAuth), data in Supabase, payments via Stripe (3 paid tiers)
-- Insight generation powered by the Claude API, with multi-file analysis, Google Sheets import, and forecast cards
-- Shareable report links and automated email summaries
-- Ran a self-led security audit of the platform (Oct 2026)
+**Latest: "Ask your data" (RAG).** Owners ask a question like *"Which month had my highest revenue?"* and get a cited answer drawn from every report they've saved.
+
+| Metric (13-question eval) | Result |
+|---|---|
+| Answer accuracy | 13 / 13 |
+| Retrieval recall | 100% |
+| Groundedness (every number traced to a source) | 100% |
+| Abstention (says "not in your reports" when it should) | 100% |
+| Prompt-injection test | Passed |
+| Median latency | ~5 s |
+
+- **Retrieval:** pgvector (HNSW) in Postgres, Voyage embeddings, top-8 passages with a similarity floor
+- **Grounding:** precomputed aggregates instead of raw rows, structured JSON answers with citations
+- **Observability:** Langfuse tracing (OpenTelemetry) for latency, tokens, and cost per question
+- **Security:** row-level security, per-user search filtering, rate limits, and a platform security audit
 
 👉 [Live product](https://calgridai.com) · [Project overview](https://github.com/Bellomk77/calgrid-ai)
 
 ---
 
-## 🛡️ Security Work
+## 📊 Projects
 
-- **IoT Cyber Defense externship (Extern):** securing an IoT water-monitoring system for a hotel case study
-- **vCISO Cybersecurity Risk Assessment externship (Extern):** risk assessment and security program work
-- **CompTIA Security+:** in progress (exam Dec 2026), then Microsoft SC-200
-- **CalGrid AI security audit:** auth, access control, secrets, and API review of a live SaaS
+- **[Customer Churn Prediction](https://github.com/Bellomk77/customer-churn-prediction):** end-to-end ML pipeline (EDA, Random Forest, XGBoost) on 7,000+ telecom records, 80.7% accuracy
+- **[Sales Performance Dashboard](https://public.tableau.com/app/profile/mohammed.bello.ibrahim/viz/SalesPerformanceDashboardSuperstore2025/SalesPerformanceDashboard):** Tableau KPI dashboard from 10,000+ retail sales records
+- **Coming next:** Python AI agent with tool calling and evals · data pipeline (Airflow + dbt) · LLM security tester
 
-## 📊 Data & AI Projects
+## 🛡️ Security & Governance
 
-- **[Customer Churn Prediction](https://github.com/Bellomk77/customer-churn-prediction):** end-to-end ML pipeline (EDA, Random Forest, XGBoost) identifying churn drivers
-- **[Sales Performance Dashboard](https://public.tableau.com/app/profile/mohammed.bello.ibrahim/viz/SalesPerformanceDashboardSuperstore2025/SalesPerformanceDashboard):** Tableau KPI dashboard with regional and category analysis
-- **Beats by Dre externship (Extern):** qualitative and quantitative consumer insights
-
----
+- **vCISO Cybersecurity Risk Assessment extern:** scoping, asset inventory, control-gap scoring, and risk ranking for a client
+- **IoT Cyber Defense extern (Hydroficient):** STRIDE threat model, mutual TLS and HMAC message signing on a live sensor pipeline
+- **CalGrid AI security audit:** auth, access control, secrets, and payment flows of a live SaaS
 
 ## 🧰 Toolkit
 
-**Security:** threat modeling · risk assessment · IoT security · auth & access control
-**Data & AI:** Python (Pandas, NumPy, Scikit-learn) · SQL · Tableau · Power BI · LLM APIs
-**Web & Cloud:** Next.js · React · JavaScript · Vercel · Supabase · Clerk · Stripe · Azure (AZ-900 in progress)
+**AI:** LLM APIs · RAG · embeddings · pgvector · LLM evaluation · prompt engineering · Langfuse
+**Data:** Python (Pandas, NumPy, Scikit-learn) · SQL · PostgreSQL · ETL · Tableau · Excel
+**Web & Cloud:** Next.js · React · JavaScript · Vercel · Supabase · Clerk · Stripe
+**Security:** threat modelling · risk assessment · access control · NIST CSF
+**Currently learning:** AI agents · Power BI · CompTIA Security+ · Azure fundamentals
 
 ---
 
