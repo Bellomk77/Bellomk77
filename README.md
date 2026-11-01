@@ -2,7 +2,7 @@
 
 **AI Engineering · Data · Security & Governance**
 
-Final-year Honours Computer Science student (Data Analytics) at Trent University, graduating April 2027 and open to 2027 new grad roles in Toronto. I build AI that is useful, measured, and secure.
+Final-year Honours Computer Science student (Data Analytics) at Trent University, graduating April 2027 and open to 2027 new grad roles in Ontario. I build AI that is useful, measured, and secure.
 
 📍 Ontario, Canada · 🎓 Dean's Honour Roll 2024, 2025 and 2026
 
