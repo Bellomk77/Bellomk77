@@ -34,22 +34,13 @@ Final-year Honours Computer Science student (Data Analytics) at Trent University
 
 ## 📊 Projects
 
-▶ **[Try five of them live in your browser](https://mohammed-bello-ibrahim.vercel.app/demos/)**: interactive demos built on each project's real output.
-
-### 🤖 AI engineering
-
-| Project | What it does | Highlight | Stack |
-|---|---|---|---|
-| **[AI Data Agent](https://github.com/Bellomk77/ai-data-agent)** | Tool-calling agent that answers business questions by writing and running SQL | 3-layer read-only guardrails, step tracing, cost tracking, 13-question eval with injection attacks | Python · LLM tool use · SQLite |
-| **[LLM Security Tester](https://github.com/Bellomk77/llm-security-tester)**<br>[▶ Live demo](https://mohammed-bello-ibrahim.vercel.app/demos/security.html) | Red-teams AI apps with 20 attacks mapped to the OWASP Top 10 for LLMs | Deterministic nonce/canary detection, HTML reports, CI gate that blocks vulnerable releases | Python · OWASP LLM 2025 |
+▶ **[Try my projects live in your browser](https://mohammed-bello-ibrahim.vercel.app/demos/)**: interactive demos built on each project's real output.
 
 ### 🛠️ Data engineering & machine learning
 
 | Project | What it does | Highlight | Stack |
 |---|---|---|---|
 | **[Retail Data Pipeline](https://github.com/Bellomk77/retail-data-pipeline)**<br>[▶ Live demo](https://mohammed-bello-ibrahim.vercel.app/demos/retail.html) | ELT pipeline: 59K messy rows → tested star schema → KPIs and cohort retention | Every injected data issue caught (6/6), revenue reconciles to the cent, 25 dbt tests | dbt · DuckDB · Airflow · SQL |
-| **[Churn Model API](https://github.com/Bellomk77/churn-model-api)**<br>[▶ Live demo](https://mohammed-bello-ibrahim.vercel.app/demos/churn.html) | My churn model as a production service: validated API, explanations, drift monitoring | Calling the riskiest 20% reaches 50% of churners (2.5× random); PSI drift alerts | FastAPI · scikit-learn · Docker |
-| **[Fraud Detection](https://github.com/Bellomk77/fraud-detection)**<br>[▶ Live demo](https://mohammed-bello-ibrahim.vercel.app/demos/fraud.html) | Card fraud scoring judged by a fixed analyst budget and in dollars | 2× the fraud dollars of rules at the same alert volume; leakage-tested features; reason codes | scikit-learn · pandas |
 | **[Customer Churn Prediction](https://github.com/Bellomk77/customer-churn-prediction)** | Exploratory ML on 7,000+ telecom customers | Random Forest and XGBoost, 80.7% accuracy | Python · scikit-learn |
 | **[Sales Performance Dashboard](https://public.tableau.com/app/profile/mohammed.bello.ibrahim/viz/SalesPerformanceDashboardSuperstore2025/SalesPerformanceDashboard)** | KPI dashboard from 10,000+ retail sales records | Regional and category performance | Tableau |
 
